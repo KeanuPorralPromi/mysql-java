@@ -19,7 +19,7 @@ public class DbConnection {
 				, HOST, PORT, SCHEMA, USER, PASSWORD);
 		
 		
-		System.out.println("Connecting with url= " + url);
+		
 		
 		try {	
 			Connection conn = DriverManager.getConnection(url);
